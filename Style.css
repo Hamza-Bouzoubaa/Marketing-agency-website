@@ -1,0 +1,108 @@
+/* Reset default margin and padding */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: #000000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0%;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Style the main content */
+section {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.logo {
+    width: 60px;
+    height: 44px;
+    margin-right: 10px;
+  }
+
+.logo:hover {
+    width: 70px;
+    height: 52px;
+  }
+  
+
+ul li {
+    display: inline-block;
+    color: #fff;
+  }
+  
+ul li a {
+    text-decoration: none;
+    margin-left: 10px; /* Optional: Add some spacing between navigation items */
+  }
+
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  
